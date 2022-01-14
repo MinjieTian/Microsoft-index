@@ -1,0 +1,543 @@
+body,ul,li,img,p,h1,h2,h3,h4,h5,h6,input{
+    margin: 0;
+    padding: 0;
+
+}
+
+html,body{
+    /*max-width: 100vw;*/
+}
+
+.MinWidth{
+    min-width: 320px;
+}
+
+button{
+    border:0px;
+    background-color:transparent;
+    font-size: 13px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h3{
+    font-size:   18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+
+li:hover{
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+
+    color: black;
+    padding-bottom: 3px;
+    border-bottom: 2px solid black;
+}
+
+nav{
+    width: 90%;
+    margin: auto;
+    height: 50px;
+    /*background-color: red;*/
+
+}
+.navDiv{
+    display: inline-block;
+    vertical-align: top;
+}
+
+button:hover span{
+    padding-bottom: 3px;
+    border-bottom: 2px solid black;
+}
+
+#navDiv1,#navDiv4,#navDiv5,#navDiv6{
+    /*background-color: burlywood;*/
+    height: 100%;
+    line-height: 50px;
+    padding-left: 20px;
+
+}
+
+#navDiv2{
+    padding-left: 20px;
+    /*background-color: yellow;*/
+    height: 100%;
+    width: calc(100% - 125px - 282px);
+}
+
+#navDiv2>ul{
+    width: 100%;
+}
+#navDiv2>ul>li{
+    float: left;
+    height: 50px;
+    line-height: 55px;
+    box-sizing: border-box;
+    margin-right: 20px;
+    font-size: 13px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#navDiv3{
+    box-sizing: border-box;
+    padding-left: 30px;
+    /*background-color: aquamarine;*/
+    height: 100%;
+    width: 282px;
+}
+
+#navBtn{
+    height: 50px;
+    line-height: 55px;
+    box-sizing: border-box;
+    margin-right: 20px;
+    font-size: 13px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#navBtn:after, #navUl1 li:last-of-type button span:after{
+    box-sizing: border-box;
+    font-family: "MWF-MDL2";
+    content: "";
+    position: absolute;
+    font-size: 8px;
+    display: inline-block;
+    color: currentColor;
+    font-weight: 700;
+    padding-top: 4px;
+    margin-left: 5px;
+}
+
+#searchBtn:after, #searchBtn1:after, .searchNavMag:after{
+    font-family: "MWF-MDL2";
+    content: "";
+    -ms-high-contrast-adjust: none;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 2px;
+    position: relative;
+    text-indent: 0;
+    vertical-align: sub;
+}
+
+#cartBtn:after, #cartBtn1:after{
+    font-family: "MWF-MDL2";
+    content: "";
+    -ms-high-contrast-adjust: none;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 2px;
+    position: relative;
+    text-indent: 0;
+    vertical-align: sub;
+}
+
+#innerUl{
+    display: none;
+    position: absolute;
+    margin-top: -7px;
+    background-color: lightgrey;
+    width: 100px;
+    z-index: 2;
+}
+
+#moreLi{
+    display: none;
+    margin-top: -1px;
+}
+
+#lt860{
+    box-sizing: border-box;
+    height: 50px;
+}
+
+.dropdown-menu> li{
+    height: 50px;
+    font-size: 13px;
+    text-indent: 20px;
+    color: black;
+    width: 100%;
+}
+
+.dropdown-menu> li>a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    border-bottom: 0px solid transparent;
+    padding-bottom: 0px;
+}
+
+.dropdown-menu{
+    background-color: lightgrey;
+}
+
+#navDiv4,#navDiv6{
+    width: 78px;
+    margin: 0px;
+}
+#navDiv5{
+    width: calc(100% - 166px);
+    padding: 0;
+    text-align: center;
+}
+
+#lt860{
+    display: none;
+}
+
+#search-nav{
+    opacity: 0;
+    display: inline-flex;
+    width: calc(100% - 130px);
+    align-items: center;
+    justify-content: space-between;
+}
+
+#search-nav input{
+    width: 100%;
+    height: 36px;
+    border: 0px;
+}
+#searchBarDiv{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: calc(100% - 120px);
+    border: 2px solid #626262;
+}
+
+input{
+    border:0px;
+}
+
+input:focus{
+    outline: none;
+    border: #1f7ac0 1px solid;
+}
+
+#search-nav>button{
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+#searchNavMag{
+    position: absolute;
+    top: 10px;
+    right: 107px;
+}
+
+#search-nav2{
+    display: flex;
+    align-items: center;
+}
+
+#mag{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#searchInputInlg860{
+    width: calc(100% - 30px);
+}
+#searchInputInlg860>input{
+    padding-left: 30px;
+}
+
+#searchInputInlg860> input::placeholder{
+    font-size: 12px;
+}
+
+#search-nav2{
+    opacity: 0;
+}
+
+/**/
+
+#carouselExampleFade{
+    width: 100vw;
+}
+
+
+/**/
+
+#outDivInSixPic{
+    width: 90%;
+    overflow: hidden;
+}
+
+
+.slip{
+    margin-top: 30px;
+    /*height: 129px;*/
+    display: flex;
+    justify-content: space-evenly;
+    width: 950px;
+}
+
+
+.slip > a{
+    display: inline-block;
+    text-align: center;
+    width: 184px;
+}
+
+.slip div{
+    margin: auto;
+    text-align: center;
+    height: 40px;
+    line-height: 20px;
+
+}
+.slip > a:hover > div{
+    text-decoration: underline;
+}
+
+#outerBtn1{
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    left: 0;
+    top: calc( 50% - 25px);
+    outline: 0;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background: #fafafa;
+    color: #404040;
+    opacity: .8;
+}
+
+#outerBtn2{
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    right: 0;
+    top: calc( 50% - 25px);
+    outline: 0;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background: #fafafa;
+    color: #404040;
+    opacity: .8;
+}
+
+.outerBtn2{
+    display: none;
+}
+
+.slipMarginLeft1{
+    margin-left: calc(100% - 950px);
+}
+
+.slipMarginLeft2{
+    margin-left: 0;
+}
+
+/**/
+
+.fourPieces{
+
+    margin: 30px auto 0;
+
+
+}
+
+
+.fourPieces{
+    text-align: left;
+    font-size: 15px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+}
+
+.fourPieces>div{
+    margin-bottom: 20px;
+}
+
+.fourPieces a:hover> span{
+    text-decoration: underline;
+}
+
+.fourPieces a:hover> span::after{
+    margin-left: 10px;
+}
+
+.fourPieces span{
+    font-weight: bold;
+    color: #0067b8;
+}
+
+.fourPieces span::after{
+    transition: 0.2s;
+    font-size: 15px;
+    margin-top: 1px;
+    margin-left: 3px;
+    display: inline-block;
+    position: relative;
+    right: 0;
+    content: ">";
+    vertical-align: top;
+    text-decoration: none;
+    font-family: "MWF-MDL2";
+    color: #0067b8;
+    white-space: normal;
+    text-align: left;
+
+}
+
+.fourPieces p, .fourPieces h3{
+    max-width: 360px;
+}
+
+.fourPieces strong{
+    padding: 3px 14px 5px;
+    background-color: #ffd800;
+    color: #000;
+    font-weight: 400;
+    line-height: 20px;
+    height: 26px;
+    margin: 12px 0 4px;
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-block;
+    letter-spacing: .075em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+/*media*/
+
+@media screen and (min-width: 767px){
+    .slip{
+        transition: 0.5s;
+    }
+
+}
+
+
+@media only screen and (max-width: 1400px) {
+    #cartBtn span{
+        display: none;
+    }
+
+    #searchBtn span{
+        display: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 1085px){
+    nav{
+        width: 100%;
+    }
+    .outerBtn2:last-of-type{
+        display: block;
+    }
+
+}
+
+@media  screen and (max-width: 990px) {
+
+    .fourPieces{
+        /*padding-left: 8vw;*/
+    }
+}
+
+@media screen and (max-width: 918px){
+    #moreLi{
+        display: block;
+    }
+    #navSale, #navSupport{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 890px){
+
+    #navXbox{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 795px){
+    #lt860{
+        display: block;
+    }
+    #gt860{
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 767px){
+
+    .slip{
+        margin-left: 0;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .slip>a{
+        width: 100%;
+        text-align: left;
+        display: flex;
+        justify-content: left;
+        align-content: flex-start;
+        align-items: center;
+    }
+
+    .slip>a:not(:last-of-type){
+        margin-bottom: 50px;
+    }
+
+    .slip div{
+        margin: 0 0 0 10px;
+        text-align: left;
+        height: 20px;
+        line-height: 20px;
+
+    }
+
+    .slip img{
+        width: 20px;
+    }
+
+    #outDivInSixPic{
+        width: 100%;
+
+    }
+
+
+}
+
+@media screen and (max-width: 576px){
+    .fourPieces >img{
+        margin: auto;
+    }
+}
