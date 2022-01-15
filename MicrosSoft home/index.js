@@ -64,12 +64,23 @@ window.onload = function (){
     window.onresize = function (){
         document.getElementsByClassName('fourPieces').item(0).style.width = document.getElementById('carouselExampleFade').offsetWidth +24 +  'px';
         document.getElementsByClassName('fourPieces').item(1).style.width = document.getElementById('carouselExampleFade').offsetWidth +24 +  'px';
+        document.getElementById('outDivInSixPic').style.width = document.getElementById('carouselExampleFade').offsetWidth +24 +  'px';
+        document.getElementById('footerRow').style.width = document.getElementById('carouselExampleFade').offsetWidth +24 +  'px';
+        document.getElementById('followMS').style.width = document.getElementById('carouselExampleFade').offsetWidth +24 +  'px';
+
+
 
 
         if(innerWidth >=1085){
             document.getElementById('outerBtn1').style.display='';
             document.getElementById('outerBtn2').style.display='';
             document.getElementsByClassName('slip').item(0).setAttribute('class','container-fluid slip');
+        }
+
+        if (innerWidth <= 990){
+            document.getElementById('footerRow').style.width = '';
+            document.getElementById('footerDiv').style.width = '';
+
         }
 
         if(innerWidth <=780){
@@ -83,7 +94,7 @@ window.onload = function (){
         }
 
         if(innerWidth < 576){
-            
+
         }
 
 
@@ -92,5 +103,10 @@ window.onload = function (){
 
     document.getElementsByClassName('fourPieces').item(0).style.width = document.getElementById('carouselExampleFade').offsetWidth +24 +  'px';
     document.getElementsByClassName('fourPieces').item(1).style.width = document.getElementById('carouselExampleFade').offsetWidth +24 +  'px';
+    document.getElementById('outDivInSixPic').style.width = document.getElementById('carouselExampleFade').offsetWidth +24 +  'px';
+    document.getElementById('footerRow').style.width = document.getElementById('carouselExampleFade').offsetWidth +24 +  'px';
+    document.getElementById('footerDiv').style.width = document.getElementById('carouselExampleFade').offsetWidth +24 +  'px';
+    document.getElementById('followMS').style.width = document.getElementById('carouselExampleFade').offsetWidth +24 +  'px';
+
 
 }
